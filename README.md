@@ -44,7 +44,7 @@ Final Project for ADL
    ``` shell
    sudo bash ./fintune/train_v1.sh
    ```
-   v1 denote the method 1 and v2 denote the method 2
+   v1 denote the method 1 and v2 denote the method 2.
    The peft model will locate in `./output`
 
 ## Testing
@@ -52,7 +52,7 @@ Final Project for ADL
    ``` shell
    sudo bash ./download.sh
    ```
-   The model will locate in  `./adapter_model/v1` and `./adapter_model/v2`
+   The model will locate in  `./adapter_model_v1` and `./adapter_model_v2`
 2. Test the model by:
    ``` shell
    sudo bash ./finetune/run.sh /path/to/Taiwan-Llama /path/to/adapter_checkpoint/under/your/folder /path/to/input /path/to/output
